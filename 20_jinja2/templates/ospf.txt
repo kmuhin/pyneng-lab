@@ -1,0 +1,15 @@
+router ospf {{ process }}
+ router-id {{ router_id }}
+ auto-cost reference-bandwidth {{ ref_bw }}
+{% for interface in ospf_intf %}
+ network {{ interface.ip }}  0.0.0.0 area {{ interface.area }}
+ {% if interface.passive %}
+ passive-interface {{ interface.name }}
+ {% endif %}
+{% endfor %}
+{% for interface in ospf_intf %}
+ {% if not interface.passive %}
+interface {{ interface.name }}
+ ip ospf hello-interval 1
+ {% endif %}
+{% endfor %}

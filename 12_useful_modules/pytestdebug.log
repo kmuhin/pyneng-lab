@@ -1,0 +1,968 @@
+versions pytest-6.1.0, py-1.9.0, python-3.8.5.final.0
+cwd=/home/kotech/PythonBasics/pyneng-workout/12_useful_modules
+args=('--debug', 'test_task_12_1.py')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7f71f39eda90>
+    pytest_plugin_registered [hook]
+        plugin: <Session 12_useful_modules exitstatus=None testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7f71f39eda90>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f71f2b79220>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f71f2b793a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x7f71f39eda90>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7f71f2b79460>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x7f71f2b79580>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f71f39eda90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_clarity.plugin' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/pytest_clarity/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f71f2b79220>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f71f2b793a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7f71f2b79460>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x7f71f2b79580>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f71f2b798e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f71f2b97d30>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7f71f39eda90>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_clarity.plugin' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/pytest_clarity/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7f71f2b79220>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7f71f2b793a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7f71f2b79460>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.stepwise.StepwisePlugin object at 0x7f71f2b79580>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7f71f2b798e0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7f71f2b97d30>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7f71f2b2e4f0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7f71f5defb50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7f71f39eda90>
+          startdir: /home/kotech/PythonBasics/pyneng-workout/12_useful_modules
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: base64 [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: socket [assertion]
+      early skip of rewriting module: _socket [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      finish pytest_report_header --> [['rootdir: /home/kotech/PythonBasics/pyneng-workout/12_useful_modules, configfile: pytest.ini', 'plugins: clarity-0.3.0a0'], ['using: pytest-6.1.0 pylib-1.9.0', 'setuptools registered plugins:', '  pytest-clarity-0.3.0a0 at /home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/pytest_clarity/plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['test_task_12_1.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/home/kotech/PythonBasics/pyneng-workout/12_useful_modules/test_task_12_1.py'), []) [collection]
+            pytest_collect_file [hook]
+                path: /home/kotech/PythonBasics/pyneng-workout/12_useful_modules/test_task_12_1.py
+                parent: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /home/kotech/PythonBasics/pyneng-workout/12_useful_modules/test_task_12_1.py
+                  parent: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Module test_task_12_1.py> [hook]
+            finish pytest_collect_file --> [<Module test_task_12_1.py>] [hook]
+          matchnodes [<Module test_task_12_1.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_task_12_1.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_task_12_1.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_task_12_1.py>
+      find_module called for: test_task_12_1 [assertion]
+      matched test file (was specified on cmdline): '/home/kotech/PythonBasics/pyneng-workout/12_useful_modules/test_task_12_1.py' [assertion]
+      found cached rewritten pyc for /home/kotech/PythonBasics/pyneng-workout/12_useful_modules/test_task_12_1.py [assertion]
+      early skip of rewriting module: task_12_1 [assertion]
+      early skip of rewriting module: ipaddress [assertion]
+      early skip of rewriting module: common_functions [assertion]
+      early skip of rewriting module: concurrent [assertion]
+      early skip of rewriting module: concurrent.futures [assertion]
+      early skip of rewriting module: concurrent.futures._base [assertion]
+      early skip of rewriting module: concurrent.futures.thread [assertion]
+      early skip of rewriting module: queue [assertion]
+      early skip of rewriting module: _queue [assertion]
+      early skip of rewriting module: yaml [assertion]
+      early skip of rewriting module: yaml.error [assertion]
+      early skip of rewriting module: yaml.tokens [assertion]
+      early skip of rewriting module: yaml.events [assertion]
+      early skip of rewriting module: yaml.nodes [assertion]
+      early skip of rewriting module: yaml.loader [assertion]
+      early skip of rewriting module: yaml.reader [assertion]
+      early skip of rewriting module: yaml.scanner [assertion]
+      early skip of rewriting module: yaml.parser [assertion]
+      early skip of rewriting module: yaml.composer [assertion]
+      early skip of rewriting module: yaml.constructor [assertion]
+      early skip of rewriting module: yaml.resolver [assertion]
+      early skip of rewriting module: yaml.dumper [assertion]
+      early skip of rewriting module: yaml.emitter [assertion]
+      early skip of rewriting module: yaml.serializer [assertion]
+      early skip of rewriting module: yaml.representer [assertion]
+      early skip of rewriting module: yaml.cyaml [assertion]
+      early skip of rewriting module: _yaml [assertion]
+      early skip of rewriting module: netmiko [assertion]
+      early skip of rewriting module: netmiko.ssh_dispatcher [assertion]
+      early skip of rewriting module: netmiko.a10 [assertion]
+      early skip of rewriting module: netmiko.a10.a10_ssh [assertion]
+      early skip of rewriting module: netmiko.cisco_base_connection [assertion]
+      early skip of rewriting module: netmiko.base_connection [assertion]
+      early skip of rewriting module: telnetlib [assertion]
+      early skip of rewriting module: paramiko [assertion]
+      early skip of rewriting module: paramiko._version [assertion]
+      early skip of rewriting module: paramiko.transport [assertion]
+      early skip of rewriting module: hashlib [assertion]
+      early skip of rewriting module: _hashlib [assertion]
+      early skip of rewriting module: _blake2 [assertion]
+      early skip of rewriting module: _sha3 [assertion]
+      early skip of rewriting module: cryptography [assertion]
+      early skip of rewriting module: cryptography.__about__ [assertion]
+      early skip of rewriting module: cryptography.utils [assertion]
+      early skip of rewriting module: cryptography.hazmat [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.ciphers [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.ciphers.base [assertion]
+      early skip of rewriting module: cryptography.exceptions [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.interfaces [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.ciphers.modes [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.ciphers.algorithms [assertion]
+      early skip of rewriting module: paramiko.util [assertion]
+      early skip of rewriting module: paramiko.common [assertion]
+      early skip of rewriting module: paramiko.py3compat [assertion]
+      early skip of rewriting module: paramiko.config [assertion]
+      early skip of rewriting module: getpass [assertion]
+      early skip of rewriting module: termios [assertion]
+      early skip of rewriting module: invoke [assertion]
+      early skip of rewriting module: paramiko.ssh_exception [assertion]
+      early skip of rewriting module: paramiko.auth_handler [assertion]
+      early skip of rewriting module: paramiko.message [assertion]
+      early skip of rewriting module: paramiko.server [assertion]
+      early skip of rewriting module: paramiko.ssh_gss [assertion]
+      early skip of rewriting module: gssapi [assertion]
+      early skip of rewriting module: pywintypes [assertion]
+      early skip of rewriting module: paramiko.channel [assertion]
+      early skip of rewriting module: paramiko.file [assertion]
+      early skip of rewriting module: paramiko.buffered_pipe [assertion]
+      early skip of rewriting module: array [assertion]
+      early skip of rewriting module: paramiko.pipe [assertion]
+      early skip of rewriting module: paramiko.compress [assertion]
+      early skip of rewriting module: paramiko.dsskey [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.hashes [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.serialization [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.serialization.base [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.serialization.ssh [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.dsa [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ec [assertion]
+      early skip of rewriting module: cryptography.hazmat._oid [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ed25519 [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.rsa [assertion]
+      early skip of rewriting module: bcrypt [assertion]
+      early skip of rewriting module: bcrypt._bcrypt [assertion]
+      early skip of rewriting module: _cffi_backend [assertion]
+      early skip of rewriting module: bcrypt.__about__ [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.utils [assertion]
+      early skip of rewriting module: cryptography.hazmat._der [assertion]
+      early skip of rewriting module: paramiko.ber [assertion]
+      early skip of rewriting module: paramiko.pkey [assertion]
+      early skip of rewriting module: paramiko.ed25519key [assertion]
+      early skip of rewriting module: nacl [assertion]
+      early skip of rewriting module: nacl.signing [assertion]
+      early skip of rewriting module: nacl.bindings [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_aead [assertion]
+      early skip of rewriting module: nacl.exceptions [assertion]
+      early skip of rewriting module: nacl._sodium [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_box [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_core [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_generichash [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_hash [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_kx [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_pwhash [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_scalarmult [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_secretbox [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_secretstream [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_shorthash [assertion]
+      early skip of rewriting module: nacl.bindings.crypto_sign [assertion]
+      early skip of rewriting module: nacl.bindings.randombytes [assertion]
+      early skip of rewriting module: nacl.bindings.sodium_core [assertion]
+      early skip of rewriting module: nacl.bindings.utils [assertion]
+      early skip of rewriting module: nacl.encoding [assertion]
+      early skip of rewriting module: nacl.public [assertion]
+      early skip of rewriting module: nacl.utils [assertion]
+      early skip of rewriting module: paramiko.kex_curve25519 [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.constant_time [assertion]
+      early skip of rewriting module: hmac [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.x25519 [assertion]
+      early skip of rewriting module: paramiko.kex_gex [assertion]
+      early skip of rewriting module: paramiko.kex_group1 [assertion]
+      early skip of rewriting module: paramiko.kex_group14 [assertion]
+      early skip of rewriting module: paramiko.kex_group16 [assertion]
+      early skip of rewriting module: paramiko.kex_ecdh_nist [assertion]
+      early skip of rewriting module: paramiko.kex_gss [assertion]
+      early skip of rewriting module: paramiko.packet [assertion]
+      early skip of rewriting module: paramiko.primes [assertion]
+      early skip of rewriting module: paramiko.rsakey [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.padding [assertion]
+      early skip of rewriting module: paramiko.ecdsakey [assertion]
+      early skip of rewriting module: paramiko.sftp_client [assertion]
+      early skip of rewriting module: paramiko.sftp [assertion]
+      early skip of rewriting module: paramiko.sftp_attr [assertion]
+      early skip of rewriting module: paramiko.sftp_file [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.backend [assertion]
+      early skip of rewriting module: six.moves [assertion]
+      early skip of rewriting module: cryptography.x509 [assertion]
+      early skip of rewriting module: cryptography.x509.certificate_transparency [assertion]
+      early skip of rewriting module: cryptography.x509.base [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.ed448 [assertion]
+      early skip of rewriting module: cryptography.x509.extensions [assertion]
+      early skip of rewriting module: cryptography.x509.general_name [assertion]
+      early skip of rewriting module: cryptography.x509.name [assertion]
+      early skip of rewriting module: cryptography.x509.oid [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.aead [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.ciphers [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.cmac [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.decode_asn1 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.dh [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.dh [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.dsa [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.utils [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.ec [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.ed25519 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.ed448 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.encode_asn1 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.hashes [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.hmac [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.ocsp [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.x509 [assertion]
+      early skip of rewriting module: cryptography.x509.ocsp [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.poly1305 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.rsa [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.x25519 [assertion]
+      early skip of rewriting module: cryptography.hazmat.backends.openssl.x448 [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.asymmetric.x448 [assertion]
+      early skip of rewriting module: cryptography.hazmat.bindings [assertion]
+      early skip of rewriting module: cryptography.hazmat.bindings.openssl [assertion]
+      early skip of rewriting module: cryptography.hazmat.bindings.openssl.binding [assertion]
+      early skip of rewriting module: cryptography.hazmat.bindings._openssl [assertion]
+      early skip of rewriting module: cryptography.hazmat.bindings.openssl._conditional [assertion]
+      early skip of rewriting module: _ssl [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.kdf [assertion]
+      early skip of rewriting module: cryptography.hazmat.primitives.kdf.scrypt [assertion]
+      early skip of rewriting module: paramiko.client [assertion]
+      early skip of rewriting module: paramiko.agent [assertion]
+      early skip of rewriting module: paramiko.hostkeys [assertion]
+      early skip of rewriting module: paramiko.sftp_server [assertion]
+      early skip of rewriting module: paramiko.sftp_si [assertion]
+      early skip of rewriting module: paramiko.sftp_handle [assertion]
+      early skip of rewriting module: paramiko.proxy [assertion]
+      early skip of rewriting module: serial [assertion]
+      early skip of rewriting module: serial.serialutil [assertion]
+      early skip of rewriting module: serial.serialposix [assertion]
+      early skip of rewriting module: fcntl [assertion]
+      early skip of rewriting module: netmiko.netmiko_globals [assertion]
+      early skip of rewriting module: netmiko.ssh_exception [assertion]
+      early skip of rewriting module: netmiko.utilities [assertion]
+      early skip of rewriting module: netmiko._textfsm [assertion]
+      early skip of rewriting module: netmiko._textfsm._terminal [assertion]
+      early skip of rewriting module: netmiko._textfsm._texttable [assertion]
+      early skip of rewriting module: netmiko._textfsm._clitable [assertion]
+      early skip of rewriting module: textfsm [assertion]
+      early skip of rewriting module: textfsm.parser [assertion]
+      early skip of rewriting module: getopt [assertion]
+      early skip of rewriting module: textfsm.copyable_regex_object [assertion]
+      early skip of rewriting module: genie [assertion]
+      early skip of rewriting module: serial.tools [assertion]
+      early skip of rewriting module: serial.tools.list_ports [assertion]
+      early skip of rewriting module: serial.tools.list_ports_posix [assertion]
+      early skip of rewriting module: serial.tools.list_ports_common [assertion]
+      early skip of rewriting module: serial.tools.list_ports_linux [assertion]
+      early skip of rewriting module: netmiko.scp_handler [assertion]
+      early skip of rewriting module: scp [assertion]
+      early skip of rewriting module: netmiko.accedian [assertion]
+      early skip of rewriting module: netmiko.accedian.accedian_ssh [assertion]
+      early skip of rewriting module: netmiko.adtran [assertion]
+      early skip of rewriting module: netmiko.adtran.adtran [assertion]
+      early skip of rewriting module: netmiko.alcatel [assertion]
+      early skip of rewriting module: netmiko.alcatel.alcatel_aos_ssh [assertion]
+      early skip of rewriting module: netmiko.arista [assertion]
+      early skip of rewriting module: netmiko.arista.arista [assertion]
+      early skip of rewriting module: netmiko.apresia [assertion]
+      early skip of rewriting module: netmiko.apresia.apresia_aeos [assertion]
+      early skip of rewriting module: netmiko.aruba [assertion]
+      early skip of rewriting module: netmiko.aruba.aruba_ssh [assertion]
+      early skip of rewriting module: netmiko.broadcom [assertion]
+      early skip of rewriting module: netmiko.broadcom.broadcom_icos_ssh [assertion]
+      early skip of rewriting module: netmiko.calix [assertion]
+      early skip of rewriting module: netmiko.calix.calix_b6 [assertion]
+      early skip of rewriting module: netmiko.centec [assertion]
+      early skip of rewriting module: netmiko.centec.centec_os [assertion]
+      early skip of rewriting module: netmiko.checkpoint [assertion]
+      early skip of rewriting module: netmiko.checkpoint.checkpoint_gaia_ssh [assertion]
+      early skip of rewriting module: netmiko.ciena [assertion]
+      early skip of rewriting module: netmiko.ciena.ciena_saos [assertion]
+      early skip of rewriting module: netmiko.cisco [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_ios [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_asa_ssh [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_nxos_ssh [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_xr [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_wlc_ssh [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_s300 [assertion]
+      early skip of rewriting module: netmiko.cisco.cisco_tp_tcce [assertion]
+      early skip of rewriting module: netmiko.citrix [assertion]
+      early skip of rewriting module: netmiko.citrix.netscaler_ssh [assertion]
+      early skip of rewriting module: netmiko.cloudgenix [assertion]
+      early skip of rewriting module: netmiko.cloudgenix.cloudgenix_ion [assertion]
+      early skip of rewriting module: netmiko.coriant [assertion]
+      early skip of rewriting module: netmiko.coriant.coriant_ssh [assertion]
+      early skip of rewriting module: netmiko.dell [assertion]
+      early skip of rewriting module: netmiko.dell.dell_dnos6 [assertion]
+      early skip of rewriting module: netmiko.dell.dell_powerconnect [assertion]
+      early skip of rewriting module: netmiko.dell.dell_force10_ssh [assertion]
+      early skip of rewriting module: netmiko.dell.dell_os10_ssh [assertion]
+      early skip of rewriting module: netmiko.dell.dell_isilon_ssh [assertion]
+      early skip of rewriting module: netmiko.dlink [assertion]
+      early skip of rewriting module: netmiko.dlink.dlink_ds [assertion]
+      early skip of rewriting module: netmiko.eltex [assertion]
+      early skip of rewriting module: netmiko.eltex.eltex_ssh [assertion]
+      early skip of rewriting module: netmiko.eltex.eltex_esr_ssh [assertion]
+      early skip of rewriting module: netmiko.endace [assertion]
+      early skip of rewriting module: netmiko.endace.endace_ssh [assertion]
+      early skip of rewriting module: netmiko.enterasys [assertion]
+      early skip of rewriting module: netmiko.enterasys.enterasys_ssh [assertion]
+      early skip of rewriting module: netmiko.extreme [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_ers_ssh [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_exos [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_netiron [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_nos_ssh [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_slx_ssh [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_vsp_ssh [assertion]
+      early skip of rewriting module: netmiko.extreme.extreme_wing_ssh [assertion]
+      early skip of rewriting module: netmiko.f5 [assertion]
+      early skip of rewriting module: netmiko.f5.f5_tmsh_ssh [assertion]
+      early skip of rewriting module: netmiko.f5.f5_linux_ssh [assertion]
+      early skip of rewriting module: netmiko.linux [assertion]
+      early skip of rewriting module: netmiko.linux.linux_ssh [assertion]
+      early skip of rewriting module: netmiko.flexvnf [assertion]
+      early skip of rewriting module: netmiko.flexvnf.flexvnf_ssh [assertion]
+      early skip of rewriting module: netmiko.fortinet [assertion]
+      early skip of rewriting module: netmiko.fortinet.fortinet_ssh [assertion]
+      early skip of rewriting module: netmiko.hp [assertion]
+      early skip of rewriting module: netmiko.hp.hp_procurve [assertion]
+      early skip of rewriting module: netmiko.hp.hp_comware [assertion]
+      early skip of rewriting module: netmiko.huawei [assertion]
+      early skip of rewriting module: netmiko.huawei.huawei [assertion]
+      early skip of rewriting module: netmiko.huawei.huawei_smartax [assertion]
+      early skip of rewriting module: netmiko.ipinfusion [assertion]
+      early skip of rewriting module: netmiko.ipinfusion.ipinfusion_ocnos [assertion]
+      early skip of rewriting module: netmiko.juniper [assertion]
+      early skip of rewriting module: netmiko.juniper.juniper [assertion]
+      early skip of rewriting module: netmiko.juniper.juniper_screenos [assertion]
+      early skip of rewriting module: netmiko.keymile [assertion]
+      early skip of rewriting module: netmiko.keymile.keymile_ssh [assertion]
+      early skip of rewriting module: netmiko.keymile.keymile_nos_ssh [assertion]
+      early skip of rewriting module: netmiko.mikrotik [assertion]
+      early skip of rewriting module: netmiko.mikrotik.mikrotik_ssh [assertion]
+      early skip of rewriting module: netmiko.mellanox [assertion]
+      early skip of rewriting module: netmiko.mellanox.mellanox_mlnxos_ssh [assertion]
+      early skip of rewriting module: netmiko.mrv [assertion]
+      early skip of rewriting module: netmiko.mrv.mrv_lx [assertion]
+      early skip of rewriting module: netmiko.mrv.mrv_ssh [assertion]
+      early skip of rewriting module: netmiko.netapp [assertion]
+      early skip of rewriting module: netmiko.netapp.netapp_cdot_ssh [assertion]
+      early skip of rewriting module: netmiko.nokia [assertion]
+      early skip of rewriting module: netmiko.nokia.nokia_sros_ssh [assertion]
+      early skip of rewriting module: netmiko.netgear [assertion]
+      early skip of rewriting module: netmiko.netgear.netgear_prosafe_ssh [assertion]
+      early skip of rewriting module: netmiko.oneaccess [assertion]
+      early skip of rewriting module: netmiko.oneaccess.oneaccess_oneos [assertion]
+      early skip of rewriting module: netmiko.ovs [assertion]
+      early skip of rewriting module: netmiko.ovs.ovs_linux_ssh [assertion]
+      early skip of rewriting module: netmiko.paloalto [assertion]
+      early skip of rewriting module: netmiko.paloalto.paloalto_panos [assertion]
+      early skip of rewriting module: netmiko.pluribus [assertion]
+      early skip of rewriting module: netmiko.pluribus.pluribus_ssh [assertion]
+      early skip of rewriting module: netmiko.quanta [assertion]
+      early skip of rewriting module: netmiko.quanta.quanta_mesh_ssh [assertion]
+      early skip of rewriting module: netmiko.rad [assertion]
+      early skip of rewriting module: netmiko.rad.rad_etx [assertion]
+      early skip of rewriting module: netmiko.raisecom [assertion]
+      early skip of rewriting module: netmiko.raisecom.raisecom_roap [assertion]
+      early skip of rewriting module: netmiko.ruckus [assertion]
+      early skip of rewriting module: netmiko.ruckus.ruckus_fastiron [assertion]
+      early skip of rewriting module: netmiko.ruijie [assertion]
+      early skip of rewriting module: netmiko.ruijie.ruijie_os [assertion]
+      early skip of rewriting module: netmiko.sixwind [assertion]
+      early skip of rewriting module: netmiko.sixwind.sixwind_os [assertion]
+      early skip of rewriting module: netmiko.sophos [assertion]
+      early skip of rewriting module: netmiko.sophos.sophos_sfos_ssh [assertion]
+      early skip of rewriting module: netmiko.terminal_server [assertion]
+      early skip of rewriting module: netmiko.terminal_server.terminal_server [assertion]
+      early skip of rewriting module: netmiko.ubiquiti [assertion]
+      early skip of rewriting module: netmiko.ubiquiti.edge_ssh [assertion]
+      early skip of rewriting module: netmiko.ubiquiti.unifiswitch_ssh [assertion]
+      early skip of rewriting module: netmiko.vyos [assertion]
+      early skip of rewriting module: netmiko.vyos.vyos_ssh [assertion]
+      early skip of rewriting module: netmiko.watchguard [assertion]
+      early skip of rewriting module: netmiko.watchguard.fireware_ssh [assertion]
+      early skip of rewriting module: netmiko.yamaha [assertion]
+      early skip of rewriting module: netmiko.yamaha.yamaha [assertion]
+      early skip of rewriting module: netmiko.zte [assertion]
+      early skip of rewriting module: netmiko.zte.zte_zxros [assertion]
+      early skip of rewriting module: netmiko.ssh_autodetect [assertion]
+      early skip of rewriting module: netmiko.scp_functions [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: pytest
+            obj: <module 'pytest' from '/home/kotech/PythonBasics/pyneng-workout/venv-3.8/lib/python3.8/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: task_12_1
+            obj: <module 'task_12_1' from '/home/kotech/PythonBasics/pyneng-workout/12_useful_modules/task_12_1.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: sys
+            obj: <module 'sys' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: check_function_exists
+            obj: <function check_function_exists at 0x7f71eff4b160>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: ping
+            obj: <function ping at 0x7f71eff4b310>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: get_reach_unreach
+            obj: <function get_reach_unreach at 0x7f71eff4b3a0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: AssertionRewritingHook
+            obj: <class '_pytest.assertion.rewrite.AssertionRewritingHook'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: test_function_created
+            obj: <function test_function_created at 0x7f71f28a9dc0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f71f2864400>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_function_created>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_task_12_1.py>
+            name: test_function_return_value
+            obj: <function test_function_return_value at 0x7f71eff4b550>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x7f71f2864460>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_function_return_value>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'test_task_12_1.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_function_created> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_function_created>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_function_return_value> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_function_return_value>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'test_task_12_1.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x7f71f39eda90>
+          items: [<Function test_function_created>, <Function test_function_return_value>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x7f71f39eda90>
+            startdir: /home/kotech/PythonBasics/pyneng-workout/12_useful_modules
+            items: [<Function test_function_created>, <Function test_function_return_value>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session 12_useful_modules exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=2>
+      pytest_runtest_protocol [hook]
+          item: <Function test_function_created>
+          nextitem: <Function test_function_return_value>
+        pytest_runtest_logstart [hook]
+            nodeid: test_task_12_1.py::test_function_created
+            location: ('test_task_12_1.py', 15, 'test_function_created')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_function_created>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_created>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_created' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_created' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_created' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_function_created>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_function_created>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_created>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_created' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_created' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_created' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_function_created>
+            nextitem: <Function test_function_return_value>
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_created>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_created' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_created' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_created' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_task_12_1.py::test_function_created
+            location: ('test_task_12_1.py', 15, 'test_function_created')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_function_return_value>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: test_task_12_1.py::test_function_return_value
+            location: ('test_task_12_1.py', 22, 'test_function_return_value')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_function_return_value>
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_return_value>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_return_value' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_return_value' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_return_value' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_function_return_value>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_function_return_value>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_return_value>
+            call: <CallInfo when='call' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_return_value' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_return_value' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_return_value' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_function_return_value>
+            nextitem: None
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_function_return_value>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'test_task_12_1.py::test_function_return_value' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'test_task_12_1.py::test_function_return_value' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'test_task_12_1.py::test_function_return_value' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x7f71f39eda90>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: test_task_12_1.py::test_function_return_value
+            location: ('test_task_12_1.py', 22, 'test_function_return_value')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session 12_useful_modules exitstatus=0 testsfailed=0 testscollected=2>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7f71f2b798e0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x7f71f39eda90>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x7f71f39eda90>
+    finish pytest_unconfigure --> [] [hook]
