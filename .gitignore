@@ -3,3 +3,4 @@
 *.pyc
 venv*/
 .idea
+/windows.start.venv.cmd
