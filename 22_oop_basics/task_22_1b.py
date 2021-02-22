@@ -78,12 +78,11 @@ class Topology:
             else:
                 dev_filtered[dev[0]] = dev[1]
         return dev_filtered
-    
+
     def delete_link(self, if1, if2):
-        for dev in self.topology.items():
-            if set(dev) == set((if1,if2)):
-                del self.topology[dev[0]]
+        for link in self.topology.items():
+            if set(link) == set((if1, if2)):
+                del self.topology[link[0]]
                 break
         else:
             print('Такого соединения нет')
-
