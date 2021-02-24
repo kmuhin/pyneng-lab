@@ -93,7 +93,7 @@ class Topology:
         link_new = if1, if2
         for link in self.topology.items():
             # all elements of link_new are in the link
-            if set(link)==set(link_new):
+            if set(link) == set(link_new):
                 print('Такое соединение существует')
                 return
             # some elements of link_new are in the link
@@ -102,4 +102,3 @@ class Topology:
                 return
         # there are no link_new in the topology dict so add it to dict
         self.topology.update(link_new)
-

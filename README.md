@@ -61,5 +61,5 @@ modules: logging, concurrent.futures, subprocess, platform
 [20_jinja2](20_jinja2) - Jinja2 configuration templates. Modules jinja2, yaml, sys, os.
   - 20.1 load jinja template and yaml config. print rendered config 
 
-[22_OOP_basics](22_oop_basics) - OOP
+[22_OOP_basics](22_oop_basics) - OOP. Simple class. Sets operations.
   - 22.1 Class creation. __init__.
