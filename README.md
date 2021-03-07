@@ -63,3 +63,6 @@ modules: logging, concurrent.futures, subprocess, platform
 
 [22_OOP_basics](22_oop_basics) - OOP. Simple class. Sets operations.
   - 22.1 Class creation. __init__.
+
+[23_OOP_Special methods](23_oop_special_methods) - OOP. 
+  - 23.1 IPAddress Class. Check ip, mask. Raise ValueError().
