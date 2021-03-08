@@ -62,8 +62,10 @@ modules: logging, concurrent.futures, subprocess, platform
   - 20.1 load jinja template and yaml config. print rendered config 
 
 [22_OOP_basics](22_oop_basics) - OOP. Simple class. Sets operations.
-  - 22.1 Class creation. __init__.
+  - 22.1 Class creation. __init__
 
-[23_OOP_Special methods](23_oop_special_methods) - OOP. 
-  - 23.1 IPAddress Class. Check ip, mask. Raise ValueError().
-  - 23.1a IPAddress Class. Special methods __str__, __repr__.
+[23_OOP_Special methods](23_oop_special_methods) - OOP. Special methods.
+  - 23.1 IPAddress Class. Check ip, mask. Raise ValueError()
+  - 23.1a IPAddress Class. Special methods __str__, __repr__
+  - 23.3 Topology Class. Special method __add__
+  - 23.3a Topology Class. Special method __iter__
