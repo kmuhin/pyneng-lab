@@ -12,3 +12,5 @@ tabulate
 pyyaml
 # exercise 20
 jinja2
+# exercise 25
+litecli

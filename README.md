@@ -39,7 +39,7 @@ https://pyneng.readthedocs.io/ru/latest/contents.html
   - 15.1a regex search in config file, search ip of interfaces, re.search, match.group, match.groups
   - 15.1b regex search in config file, search multiple ip of interfaces, re.search, match.group, match.groups
   - 15.2  parsing of output of command "show ip int br" from file, re.search, match.groups
-  - 15.2a convertning list of headers and list of values into list of dictionaries with headers as keys, zip(), comprehension
+  - 15.2a converting list of headers and list of values into list of dictionaries with headers as keys, zip(), comprehension
   - 15.3  converting file with IOS NAT rules to file with ASA NAT rule, regex with groups, str.format of match.groupdict()
   - 15.4  looks for interfaces without a description in the config file, regex with multiple conditions, matchgroups, match.lastgroup
   - 15.5  parsing command show cdp neighbors from file, regex with groups, str.format of match.groupdict() 
@@ -70,3 +70,5 @@ modules: logging, concurrent.futures, subprocess, platform
   - 23.3 Topology Class. Special method __add__
   - 23.3a Topology Class. Special method __iter__
 
+[25_db](25_db) - DB. SQLite.
+  - 25.1 DB create, insert, catching sqlite3.IntegrityError, working with context manager. Parsing "show dhcp snooping binding", reading yaml
