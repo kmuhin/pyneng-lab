@@ -40,7 +40,7 @@ class IPAddress:
         self.mask = self._check_mask(t_mask)
 
     def __repr__(self):
-        return f'{type(self).__name__}(\'{self.ip}/{self.mask}\')'
+        return f"{type(self).__name__}('{self.ip}/{self.mask}')"
 
     def __str__(self):
         return f'IP address {self.ip}/{self.mask}'

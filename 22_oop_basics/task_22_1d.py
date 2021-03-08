@@ -101,4 +101,4 @@ class Topology:
                 print('Cоединение с одним из портов существует')
                 return
         # there are no link_new in the topology dict so add it to dict
-        self.topology.update(link_new)
+        self.topology.update({link_new})
