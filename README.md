@@ -66,3 +66,4 @@ modules: logging, concurrent.futures, subprocess, platform
 
 [23_OOP_Special methods](23_oop_special_methods) - OOP. 
   - 23.1 IPAddress Class. Check ip, mask. Raise ValueError().
+  - 23.1a IPAddress Class. Special methods __str__, __repr__.
