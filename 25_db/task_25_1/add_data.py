@@ -9,10 +9,11 @@ switches_info_file = workdir.joinpath('switches.yml')
 
 files_output = ['sw1_dhcp_snooping.txt',
                 'sw2_dhcp_snooping.txt',
-                'sw3_dhcp_snooping.txt']
+                'sw3_dhcp_snooping.txt'
+                ]
 
 
-def read_yaml(yaml_file=switches_info_file):
+def read_yaml(yaml_file):
     with open(yaml_file) as f:
         return yaml.safe_load(f)
 
@@ -44,7 +45,13 @@ def read_files_dhcp_bindings(files: list):
     dict_bindings = {}
     for file in files:
         # get switch name from file name
-        dev_name, _ = file.split('_', 1)
+        file = Path(file)
+        if not file.is_absolute():
+            file = workdir.joinpath(file)
+        if not file.is_file():
+            print(f'Нет такого файла: {file}')
+            continue
+        dev_name, _ = file.name.split('_', 1)
         dict_bindings[dev_name] = []
         with open(file) as f:
             bindings = parse_dhcp_snooping(f.read())
@@ -75,9 +82,7 @@ def main():
         print('База данных не существует. Перед добавлением данных, ее надо создать')
         return
 
-    switches_info = read_yaml()
-    with open(files_output[0]) as f:
-        text = f.read()
+    switches_info = read_yaml(switches_info_file)
     bindings = read_files_dhcp_bindings(files_output)
     bindings_to_query = [(*v, k) for k, b in bindings.items() for v in b]
 

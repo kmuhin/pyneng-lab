@@ -19,6 +19,9 @@ https://pyneng.readthedocs.io/ru/latest/contents.html
 
 ## Exercise desriptions
 
+[05_basic_scripts](05_basic_scripts) - Input, dict, argv. Networks in a binary format.
+ - 5.2b network, mask in a binary format. Module argv
+
 [06_control_structures](06_control_structures) - Parsing ip addresses. Checking the correct address.
 
 [09_functions](09_functions) - Generating configs by templates. Parsing configs. 
@@ -71,4 +74,6 @@ modules: logging, concurrent.futures, subprocess, platform
   - 23.3a Topology Class. Special method __iter__
 
 [25_db](25_db) - DB. SQLite.
-  - 25.1 DB create, insert, catching sqlite3.IntegrityError, working with context manager. Parsing "show dhcp snooping binding", reading yaml
+  - 25.1 DB create, insert, catching sqlite3.IntegrityError, working with context manager. 
+    Parsing "show dhcp snooping binding". Modules pathlib, yaml, re
+  - 25.2 DB select. Modules pathlib, tabulate, argv
