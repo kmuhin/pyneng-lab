@@ -1,4 +1,4 @@
--- Schema for dhcp-snopping parsing example.
+-- Schema for dhcp-snooping parsing example.
 
 create table switches (
     hostname    text not null primary key,
