@@ -1,5 +1,6 @@
 from pathlib import Path
 import sqlite3
+from sys import argv
 
 workdir = Path(__file__).parent.absolute()
 db_file = workdir.joinpath('dhcp_snooping.db')
@@ -24,4 +25,9 @@ def create_db(rewrite=False):
 
 
 if __name__ == '__main__':
-    create_db()
+    rewrite = False
+    print('Arguments:\n  rewrite - rewrite DB if exists')
+    if len(argv) == 2 and argv[1]=='rewrite':
+        rewrite = True
+    create_db(rewrite)
+

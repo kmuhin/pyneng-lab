@@ -5,3 +5,4 @@ venv*/
 .idea
 /windows.start.venv.cmd
 activate
+*.db

@@ -5,6 +5,7 @@ import re
 
 workdir = Path(__file__).parent.absolute()
 db_file = workdir.joinpath('dhcp_snooping.db')
+newdatadir = workdir.joinpath('new_data')
 switches_info_file = workdir.joinpath('switches.yml')
 
 files_output = ['sw1_dhcp_snooping.txt',
@@ -12,7 +13,7 @@ files_output = ['sw1_dhcp_snooping.txt',
                 'sw3_dhcp_snooping.txt'
                 ]
 
-files_output_2 = [workdir.joinpath('new_data', i) for i in files_output]
+files_output_2 = [newdatadir.joinpath(i) for i in files_output]
 
 
 def read_yaml(yaml_file):
