@@ -73,7 +73,9 @@ modules: logging, concurrent.futures, subprocess, platform
   - 23.3 Topology Class. Special method __add__
   - 23.3a Topology Class. Special method __iter__
 
-[25_db](25_db) - DB. SQLite.
+[25_db](25_db) - DB. SQLite. Modules sqlite3, yaml, re, pathlib, sys.argv. 
   - 25.1 DB create, insert, catching sqlite3.IntegrityError, working with context manager. 
     Parsing "show dhcp snooping binding". Modules pathlib, yaml, re
-  - 25.2 DB select. Modules pathlib, tabulate, argv
+  - 25.2 DB select. Modules pathlib, tabulate, sys.argv
+  - 25.3 DB update. New DB field "active". Modules pathlib, yaml, re
+  - 25.4 DB select. The output is grouped by a new field "active". Named style query. Modules pathlib, tabulate, sys.argv

@@ -27,7 +27,6 @@ def create_db(rewrite=False):
 if __name__ == '__main__':
     rewrite = False
     print('Arguments:\n  rewrite - rewrite DB if exists')
-    if len(argv) == 2 and argv[1]=='rewrite':
+    if len(argv) == 2 and argv[1] == 'rewrite':
         rewrite = True
     create_db(rewrite)
-
