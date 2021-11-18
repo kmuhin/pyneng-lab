@@ -56,7 +56,6 @@ class Topology:
             toponew.add_link(*link)
         return toponew
 
-
     def _normalize(self, topology):
         dev_filtered = {}
         for link in topology.items():
@@ -69,7 +68,7 @@ class Topology:
 
     def delete_link(self, if1, if2):
         for link in self.topology.items():
-            if set(link) == set((if1, if2)):
+            if set(link) == {if1, if2}:
                 del self.topology[link[0]]
                 break
         else:
@@ -98,6 +97,6 @@ class Topology:
         # there are no link_new in the topology dict so add it to dict
         self.topology[if1] = if2
 
+
 if __name__ == '__main__':
     t1 = Topology(topology_example)
-
