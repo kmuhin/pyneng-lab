@@ -1,5 +1,5 @@
 # pyneng-workout
-https://pyneng.readthedocs.io/ru/latest/contents.html
+https://pyneng.readthedocs.io/ru/latest/
 Курс Натальи Самойленко.
 
 
